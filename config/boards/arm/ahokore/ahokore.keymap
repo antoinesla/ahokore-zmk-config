@@ -92,7 +92,7 @@ behaviors {
                         bindings = <  
    &none             &none              &none           &none           &none           &none               &none           &none           &none           &kp LGUI
    &kp GRAVE         &kp TILDE          &kp HASH        &kp COLON       &none           &none               &kp KP_NLCK     &kp SLCK        &kp PAUSE_BREAK &kp DELETE
-   &none             &kp DOLLAR         &kp LS(N6)      &kp SEMI        &none           &none               &kp PSCRN       &kp INSERT      &none           &bootloader
+   &none             &kp DOLLAR         &kp LS(N6)      &kp SEMI        &none           &none               &kp PSCRN       &kp INSERT      &none           &none
                                         &none           &none           &hm LCTRL SPACE &none               &none           &trans
                         >;
                 };
