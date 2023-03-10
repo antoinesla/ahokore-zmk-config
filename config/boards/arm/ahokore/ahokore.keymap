@@ -47,53 +47,53 @@
             };
         };
     }; 
-};
 
-keymap {
-    compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
-    default_layer {
-        bindings = <
+        default_layer {
+            bindings = <
    &kp Q             &kp W              &kp F           &kp P           &kp B           &kp J               &kp L           &kp U           &kp Y           &kp SQT
    &kp A             &kp R              &kp S           &kp T           &kp G           &kp M               &kp N           &kp E           &kp I           &kp O
    &hm LALT Z        &hm LSHFT X        &kp C           &kp D           &kp V           &kp K               &kp H           &kp COMMA       &hm LCTRL DOT   &hm LALT FSLH
                                         &mo 3           &mo 1           &hm LCTRL SPACE &hm LSHFT BSPC      &mo 2           &mo 4
-        >;
-    };
+                >;
+            };
 
-    up_layer {      
-        bindings = <      
+        up_layer {      
+            bindings = <      
    &hm LGUI PG_UP    &kp HOME           &kp UP          &kp END         &none           &kp MINUS           &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp PLUS
    &kp PG_DN         &kp LEFT           &kp DOWN        &kp RIGHT       &none           &kp COLON           &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp DOT
    &hm LALT C_VOL_DN &hm LSHFT C_VOL_UP &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp STAR            &kp KP_N1       &kp KP_N2       &kp KP_N3       &hm LALT FSLH
                                         &none           &trans          &kp LCTL        &hm LSHFT BSPC      &kp KP_N0       &none
-        >;
-    };
+                >;
+            };
 
-    down_layer {
-        bindings = <
+        down_layer {
+            bindings = <
    &hm LGUI AMPS     &kp AT             &kp LBRC        &kp RBRC        &kp BSLH        &none               &kp F1          &kp F2          &kp F3          &hm LGUI F4
    &kp EXCL          &kp MINUS          &kp LPAR        &kp RPAR        &kp PERCENT     &none               &kp F5          &kp F6          &kp F7          &kp F8
    &hm LALT EQUAL    &hm LSHFT UNDER    &kp LBKT        &kp RBKT        &kp PIPE        &none               &kp F9          &kp F10         &hm LCTRL F11   &hm LALT F12
                                         &none           &none           &hm LCTRL SPACE &kp LSHFT           &trans          &none
-        >;
-    };
+                >;
+            };
 
-    left_layer {
-        bindings = <
+        left_layer {
+            bindings = <
    &kp LGUI          &none              &none           &none           &none           &none               &kp N7          &kp N8          &kp N9          &none
    &kp ESC           &none              &none           &none           &none           &none               &kp N4          &kp N5          &kp N6          &kp CAPS
    &kp LALT          &kp LSHFT          &none           &none           &none           &none               &kp N1          &kp N2          &kp N3          &none
                                         &trans          &none           &kp LCTL        &hm LSHFT BSPC      &kp N0          &none
-        >;
-    };
-                
-    right_layer {
-        bindings = <  
+                >;
+            };
+                    
+        right_layer {
+            bindings = <  
    &none             &none              &none           &none           &none           &none               &none           &none           &none           &kp LGUI
    &kp GRAVE         &kp TILDE          &kp HASH        &kp COLON       &none           &none               &kp KP_NLCK     &kp SLCK        &kp PAUSE_BREAK &kp DELETE
    &none             &kp DOLLAR         &kp LS(N6)      &kp SEMI        &none           &none               &kp PSCRN       &kp INSERT      &none           &none
                                         &none           &none           &hm LCTRL SPACE &none               &none           &trans
-        >;
+                >;
+            };
     };
-};
+}
