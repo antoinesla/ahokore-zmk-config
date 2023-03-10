@@ -10,7 +10,7 @@
 
 / {
     macros {
-        zed_em_kay: pound_symbol {
+        pound_symbol: pound_symbol {
             label = "ZM_pound_symbol";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
