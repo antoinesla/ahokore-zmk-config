@@ -97,7 +97,7 @@
         left_layer {
             bindings = <
 &kp LGUI          &none              &none           &none           &none           &none               &kp N7          &kp N8          &kp N9          &none
-&kp ESC           &none              &none           &none           &none           &none               &kp N4          &kp N5          &kp N6          &kp CAPS
+&kp ESC           &kp LC(CAPS)       &kp LA(CAPS)    &kp LS(CAPS)    &none           &none               &kp N4          &kp N5          &kp N6          &kp CAPS
 &kp LALT          &kp LSHFT          &none           &none           &none           &none               &kp N1          &kp N2          &kp N3          &none
                                      &trans          &none           &kp LCTL        &hm LSHFT BSPC      &kp N0          &none
             >;
